@@ -2,6 +2,7 @@ import express from 'express';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { create } from 'express-handlebars';
+const fetch = require('node-fetch'); 
 
 
 const __filename = fileURLToPath(import.meta.url);
